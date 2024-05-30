@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <div>
-      <p>guess a number</p>
-      <input type="number" id="input" />
-      <p id="result"></p>
+    <div class="wrapper" id="container">
+      <p id="outputText">Guess a number</p>
+      <div class="names">
+        <input id="input" />
+        <button id="EnterBtn">Enter</button>
+        <button id="againBtn">Play Again</button>
+      </div>
+      <p id="attempt">0</p>
     </div>
     <script src="index.js"></script>
   </body>
